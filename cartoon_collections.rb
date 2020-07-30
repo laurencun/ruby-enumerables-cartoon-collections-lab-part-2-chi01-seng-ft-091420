@@ -25,5 +25,4 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.detect do |element|
   if valid_calls.any? == element
     element
-  end
 end
