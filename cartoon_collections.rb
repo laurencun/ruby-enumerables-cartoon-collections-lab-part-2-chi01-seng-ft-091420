@@ -25,4 +25,3 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.select {|element| element == valid_calls}
   return element
 end
-end
